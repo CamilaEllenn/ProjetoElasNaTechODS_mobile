@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2? family= Abril+Fatface & family= Rajdhani & display=swap');
+ /* font-family: 'Abril Fatface', cursiva; */
+ /* font-family: 'Rajdhani', sans-serif; */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #C2E5F2;
+}
+
+header {
+    background-image: url(img/francesco-ungaro-nlqqldluDBw-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 32vh;
+}
+
+#navegacao {
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+}
+
+#navegacao a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+    padding: 1rem 1rem 0 0;
+    font-family: 'Rajdhani', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+hr {
+    color: white;
+}
+
+.titulo h1 {
+    color: white;
+    font-size: 8vh;
+    text-align: center;
+    margin-top: 5vh;
+    font-family: 'Abril Fatface', cursiva;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+#proposta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5%;
+    margin: 6vh;
+}
+
+#proposta h2 {
+    text-align: left;
+    color:#023859;
+    font-size: 3.5vh;
+    font-family: 'Abril Fatface', cursiva;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 3vh;
+}
+
+#proposta p {
+    font-size: 2.3vh;
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    word-spacing: -0.1em;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    line-height: 130%;
+    margin-bottom: 5vh;
+}
+
+iframe {
+    width: 45vh;
+}
+
+footer {
+    background-color:#011526;
+    color:white;
+    height:10vh;
+    font-size: 3vh;
+    text-align: center;
+}
+
+#autor {
+    padding-top: 3vh;
+}
+
+#referencias {
+    padding-top: 1vh;
+}
+
+/* DOCUMENTARIOS PAGINA */
+
+.topo_2 h2 {
+    color: white;
+    font-size: 6vh;
+    padding-top: 10vh;
+    text-align: center;
+    font-family: 'Abril Fatface', cursiva;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+#brasil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5%;
+    margin: 8vh;
+}
+
+#brasil h2 {
+    text-align: left;
+    color:#023859;
+    font-size: 4vh;
+    font-family: 'Abril Fatface', cursiva;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 3vh;
+}
+
+#brasil p {
+    font-size: 2.3vh;
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    word-spacing: -0.1em;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    line-height: 130%;
+    margin-bottom: 5vh;
+}
+
+#holanda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5%;
+    margin: 8vh;
+}
+
+#holanda h2 {
+    text-align: left;
+    color:#023859;
+    font-size: 4vh;
+    font-family: 'Abril Fatface', cursiva;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 3vh;
+}
+
+#holanda p {
+    font-size: 2.3vh;
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    word-spacing: -0.1em;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    line-height: 130%;
+    margin-bottom: 5vh;
+}
+
+#documentario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5%;
+    margin: 8vh;
+}
+
+#documentario p {
+    font-size: 2.3vh;
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    word-spacing: -0.1em;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    line-height: 130%;
+    margin-bottom: 5vh;
+}
+
+#galeria p {
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    color: #023859;
+    font-size: 2.5vh;
+    font-family: 'Abril Fatface', cursiva;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+#galeria span {
+    color: rgb(185, 39, 39);
+}
+
+#galeria img {
+    text-align: center;
+    height: 40vh;
+    width: 40vh;
+    margin: 3vh 5.5vh;
+}
+
+#galeria a {
+    text-decoration: none;
+    color:#011526;
+}
+
+#rodape a {
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+    header {
+        height: 50vh;
+    }
+
+    #navegacao a {
+        font-size: 1.2rem;
+    }
+
+    .item-lista:hover {
+        transform: scale(1.3, 1.3);
+        padding: 0rem 2rem;
+    }
+
+    .titulo h1 {
+        font-size: 12vh;
+        margin-top: 14vh;
+    }
+
+    #proposta {
+        display: flex;
+        flex-direction: row;
+        margin: 10vh 30vh;
+    }
+    
+    #proposta h2 {
+        font-size: 6vh;
+        margin-bottom: 3vh;
+    }
+    
+    #proposta p {
+        font-size: 3.5vh;
+        margin-bottom: 5vh;
+    }
+    
+    iframe {
+        width: 80vh;
+    }
+
+    /* DOCUMENTARIOS PAGINA */
+
+    .topo_2 h2 {
+        margin: 0 auto;
+        font-size: 12vh;
+        padding-top: 10vh;
+        width: 50%;
+    }
+
+    #brasil {
+        display: flex;
+        flex-direction: row;
+        margin: 10vh 30vh;
+    }
+
+    #brasil h2 {
+        font-size: 6vh;
+        margin-bottom: 3vh;
+    }
+
+    #brasil p {
+        font-size: 3.5vh;
+        margin-bottom: 5vh;
+    }
+
+    #holanda {
+        display: flex;
+        flex-direction: row;
+        margin: 10vh 30vh;
+    }
+
+    #holanda h2 {
+        font-size: 6vh;
+        margin-bottom: 3vh;
+    }
+
+    #holanda p {
+        font-size: 3.5vh;
+        margin-bottom: 5vh;
+    }
+
+    #documentario {
+        display: flex;
+        flex-direction: row;
+        margin: 10vh 30vh;
+    }
+
+    #documentario p {
+        font-size: 3.5vh;
+        margin-bottom: 5vh;
+    }
+
+    #galeria p {
+        font-size: 6vh;
+        margin-bottom: 3vh;
+        width: 30%;
+    }
+
+    #galeria img {
+        height: 40vh;
+        width: 40vh;
+        display: inline-block;
+        margin: 0 2.4vh 8vh 2.4vh;
+    }
+}
